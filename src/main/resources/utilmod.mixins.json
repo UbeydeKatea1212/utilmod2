@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "com.example.utilmod.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "CameraMixin",
+    "EntityMixin",
+    "KeyboardInputMixin",
+    "MinecraftClientMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
